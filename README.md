@@ -27,17 +27,19 @@ Pydantic-validated result contract is exposed through its Python library, CLI, F
 JSON/SSE service, responsive web console, and MCP tool with enumerated inputs,
 discriminated outputs, and safe operation annotations.
 
-- Defends outbound fetches against SSRF and DNS rebinding by pinning validated IPs,
-  revalidating redirects, checking connected peers, and bounding time, bytes, requests,
-  and concurrency.
-- Ships **282 tests, including five real-Chromium policy tests**, **over 91% combined
-  statement-and-branch coverage**, CI on Python **3.10, 3.11, 3.12, and 3.13**, CodeQL,
-  dependency audits, and a non-root container tested with a read-only filesystem.
-- Includes synchronized project skills for Codex and Claude Code plus an immutable,
-  checksummed GitHub release backed by signed build-provenance attestations.
+- Enforces optional exact hostname/host:port allowlists before DNS, across redirects,
+  and throughout browser navigation.
+- Ships **359 offline tests, including five in real Chromium**, **91.34% combined
+  statement-and-branch coverage**, and CI on Python **3.10–3.13**, with CodeQL,
+  dependency audits, and read-only container smoke tests.
+- Scores all **76/76 present fields exact and complete**, plus **8/8 expected
+  absences**, across 14 checked-in synthetic cases with zero errors. These results
+  describe the bundled corpus, not the open web.
+- Includes Codex and Claude Code skills plus an immutable, checksummed **v0.3.0**
+  release backed by GitHub build provenance.
 
 [Source and documentation](https://github.com/Z-MarkUs/OmniScrape)
-· [Latest release](https://github.com/Z-MarkUs/OmniScrape/releases/latest)
+· [v0.3.0 release](https://github.com/Z-MarkUs/OmniScrape/releases/tag/v0.3.0)
 · [CI](https://github.com/Z-MarkUs/OmniScrape/actions/workflows/ci.yml)
 
 ### [Prompt Refinement, Tested](https://github.com/Z-MarkUs/Prompt-Refinement-for-AI-Coding-Assistance)
