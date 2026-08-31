@@ -29,9 +29,9 @@ discriminated outputs, and safe operation annotations.
 
 - Enforces optional exact hostname/host:port allowlists before DNS, across redirects,
   and throughout browser navigation.
-- Ships **359 offline tests, including five in real Chromium**, **91.34% combined
-  statement-and-branch coverage**, and CI on Python **3.10–3.13**, with CodeQL,
-  dependency audits, and read-only container smoke tests.
+- Ships **359 offline tests across its complete optional stack, including five in real
+  Chromium**, **over 91% combined statement-and-branch coverage**, and CI on Python
+  **3.10–3.13**, with CodeQL, dependency audits, and read-only container smoke tests.
 - Scores all **76/76 present fields exact and complete**, plus **8/8 expected
   absences**, across 14 checked-in synthetic cases with zero errors. These results
   describe the bundled corpus, not the open web.
