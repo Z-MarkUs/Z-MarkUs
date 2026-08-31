@@ -14,6 +14,27 @@ human-in-the-loop automation.
 
 ## Selected work
 
+### [OmniScrape](https://github.com/Z-MarkUs/OmniScrape)
+
+**Turn authorized web pages into validated article and product data—deterministically
+by default.** OmniScrape combines structured data, readability parsing, and DOM
+heuristics with opt-in Playwright rendering and OpenAI Responses modes. A shared
+Pydantic-validated result contract is exposed through its Python library, CLI, FastAPI
+JSON/SSE service, responsive web console, and MCP tool.
+
+- Defends outbound fetches against SSRF and DNS rebinding by pinning validated IPs,
+  revalidating redirects, checking connected peers, and bounding time, bytes, requests,
+  and concurrency.
+- Ships **276 tests, including five real-Chromium policy tests**, **91.18% combined
+  statement-and-branch coverage**, CI on Python **3.10, 3.12, and 3.13**, CodeQL,
+  dependency audits, and a non-root container tested with a read-only filesystem.
+- Includes synchronized project skills for Codex and Claude Code plus an immutable,
+  checksummed GitHub release backed by signed build-provenance attestations.
+
+[Source and documentation](https://github.com/Z-MarkUs/OmniScrape)
+· [Latest release](https://github.com/Z-MarkUs/OmniScrape/releases/latest)
+· [CI](https://github.com/Z-MarkUs/OmniScrape/actions/workflows/ci.yml)
+
 ### [Prompt Refinement, Tested](https://github.com/Z-MarkUs/Prompt-Refinement-for-AI-Coding-Assistance)
 
 <a href="https://z-markus.github.io/Prompt-Refinement-for-AI-Coding-Assistance/">
