@@ -25,7 +25,7 @@ JSON/SSE service, responsive web console, and MCP tool.
 - Defends outbound fetches against SSRF and DNS rebinding by pinning validated IPs,
   revalidating redirects, checking connected peers, and bounding time, bytes, requests,
   and concurrency.
-- Ships **276 tests, including five real-Chromium policy tests**, **91.18% combined
+- Ships **276 tests, including five real-Chromium policy tests**, **over 91% combined
   statement-and-branch coverage**, CI on Python **3.10, 3.12, and 3.13**, CodeQL,
   dependency audits, and a non-root container tested with a read-only filesystem.
 - Includes synchronized project skills for Codex and Claude Code plus an immutable,
