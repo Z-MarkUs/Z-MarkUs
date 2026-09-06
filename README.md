@@ -63,6 +63,35 @@ reporting a negative result clearly instead of forcing a success story.
 · [Generated evidence](https://github.com/Z-MarkUs/Prompt-Refinement-for-AI-Coding-Assistance/blob/main/docs/results.md)
 · [Source](https://github.com/Z-MarkUs/Prompt-Refinement-for-AI-Coding-Assistance)
 
+### [LSTM Bitcoin Research](https://github.com/Z-MarkUs/LSTM-Bitcoin)
+
+<a href="https://github.com/Z-MarkUs/LSTM-Bitcoin/releases/tag/v1.0.0">
+  <img src="https://raw.githubusercontent.com/Z-MarkUs/LSTM-Bitcoin/v1.0.0/docs/assets/forecast_mae.svg" width="760" alt="Out-of-sample error comparison for the LSTM Bitcoin benchmark">
+</a>
+
+<sub>Chart source: Coin Metrics Community Data, BTC daily PriceUSD, adapted in
+v1.0.0. This data-derived figure remains subject to
+<a href="https://github.com/Z-MarkUs/LSTM-Bitcoin/blob/v1.0.0/DATA_LICENSE.md">CC BY-NC 4.0</a>.</sub>
+
+**A leakage-controlled Bitcoin return benchmark where the evidence is allowed to
+reject the model.** Eight expanding annual folds cover 2,922 unique out-of-sample
+days from 2018–2025. The three-seed LSTM ensemble did not beat the zero-return
+baseline: MAE was **0.022885 vs. 0.022832**, with a block-bootstrap interval for the
+difference that includes zero.
+
+- Ships a typed package and CLI with **170 offline tests**, **97.25% branch-aware
+  coverage**, strict mypy, CodeQL, security/dependency audits, and public CI on Python
+  **3.11–3.12** across Linux and Windows.
+- Publishes checksum-verified fold/seed evidence, an executed read-only notebook,
+  deterministic figures, pinned data provenance, an SBOM, and attested release assets.
+- Separates the idealized signal simulation from the primary forecast study and makes
+  no profitability or investment claim.
+
+[Source and methodology](https://github.com/Z-MarkUs/LSTM-Bitcoin)
+· [v1.0.0 release](https://github.com/Z-MarkUs/LSTM-Bitcoin/releases/tag/v1.0.0)
+· [Executed notebook](https://github.com/Z-MarkUs/LSTM-Bitcoin/blob/v1.0.0/notebooks/reference_evaluation.ipynb)
+· [Verified tag CI](https://github.com/Z-MarkUs/LSTM-Bitcoin/actions/runs/34031424636)
+
 ### [WatchDock](https://github.com/Z-MarkUs/WatchDock)
 
 **Give agents a review queue—not unchecked file moves.** WatchDock is a cross-platform,
